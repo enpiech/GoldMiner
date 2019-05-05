@@ -17,7 +17,7 @@ public class Gun : MonoBehaviour
 	protected float _shotSpeed = 1;
 
 	private LineController _line;
-	private ClawController _claw;
+	private Claw _claw;
 	private Transform _transform;
 	private Rigidbody2D _rigidbody;
 
@@ -53,7 +53,7 @@ public class Gun : MonoBehaviour
 		// Init value
 		_isShotted = false;
 
-		_claw = GetComponentInChildren<ClawController>();
+		_claw = GetComponentInChildren<Claw>();
 		_line = GetComponentInChildren<LineController>();
 	}
 

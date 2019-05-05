@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class ClawController : MonoBehaviour
+public class Claw : MonoBehaviour
 {
 	private Rigidbody2D _rigidbody;
 	private Transform _transform;
